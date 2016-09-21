@@ -1,0 +1,9 @@
+{
+    "name": "johoehn/framework",
+    "require": {
+        "swiftmailer/swiftmailer": "^5.4",
+        "oyejorge/less.php": "~1.7.0.9",
+        "tedivm/jshrink": "~1.0",
+        "tinify/tinify": "^1.3"
+    }
+}

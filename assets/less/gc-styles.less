@@ -1,0 +1,74 @@
+//Replace Carousel Sliders
+.carousel {
+  .carousel-control {
+    span.glyphicon {
+      &:before {
+        font-family: FontAwesome;
+        content:"\f104";
+        font-size:1.5em;
+      }
+      &.glyphicon-chevron-right:before {
+        content:"\f105";
+      }
+
+    }
+  }
+}
+
+//Cookie Hinweis
+.cc_container .cc_btn {
+  background-color:#4169E1 !important;
+  color:white !important;
+}
+.cc_container a, .cc_container a {
+  color: #4169E1 !important;
+}
+
+a {
+  transition: all 2s ease-in-out .5s;
+}
+
+img {
+  width: 100%;
+  max-width:100%;
+}
+img.auto-width {
+  width: auto;
+}
+
+//hr classes
+hr {
+  &.small, &.medium, &.large {
+    visibility: hidden;
+  }
+  &.small {
+    height:15px;
+  }
+  &.medium {
+    height:30px;
+  }
+  &.large {
+    height:50px;
+  }
+}
+
+
+.test {
+  background-color:red;
+  border-bottom: 3px solid red;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+
+input {
+  &.error {
+    border: 1px solid @brand-danger;
+  }
+  &.success {
+    border: 1px solid @brand-success;
+  }
+}

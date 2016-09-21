@@ -1,0 +1,1 @@
+<?php the_template_part("start/welcome"); ?>

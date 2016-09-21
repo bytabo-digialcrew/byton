@@ -1,0 +1,12 @@
+*~
+.DS_Store
+.ftppass
+dependencies/node_modules
+assets/components
+dependencies/vendor
+.idea/
+.idea
+.idea/workspace.xml
+framework/logs.txt
+htdocs/built
+assets/components
